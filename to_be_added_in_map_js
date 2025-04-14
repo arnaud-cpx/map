@@ -1,7 +1,6 @@
-var imageUrl = 'https://github.com/arnaud-cpx/map/blob/main/x_____xEvvzmkntQz106oOcNDGiMg..x_____x_ags_751df16f-18ee-11f0-92b4-0eda3bc241fd.png';
-var latLngBounds = L.latLngBounds([[-18.405360, 36.245328], [-0.761317, 20.757337]]);
-
+var imageUrl = 'https://raw.githubusercontent.com/arnaud-cpx/map/refs/heads/main/x_____xEvvzmkntQz106oOcNDGiMg..x_____x_ags_751df16f-18ee-11f0-92b4-0eda3bc241fd.png';
+var latLngBounds = L.latLngBounds([[36.245328, -18.405360], [20.757337, -0.761317]]);
 var imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
-    opacity: 1,
+    opacity: 0.8,
     interactive: true
 }).addTo(map);
