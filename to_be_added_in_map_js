@@ -1,0 +1,7 @@
+var imageUrl = 'https://github.com/arnaud-cpx/map/blob/main/x_____xEvvzmkntQz106oOcNDGiMg..x_____x_ags_751df16f-18ee-11f0-92b4-0eda3bc241fd.png';
+var latLngBounds = L.latLngBounds([[-18.405360, 36.245328], [-0.761317, 20.757337]]);
+
+var imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
+    opacity: 1,
+    interactive: true
+}).addTo(map);
